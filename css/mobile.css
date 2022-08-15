@@ -1,0 +1,78 @@
+/* navbar*/
+
+
+#navbar .container{
+  display: block;
+  text-align: center;
+  padding-top: 10px;
+  
+}
+
+#navbar .container h1 {
+  padding-bottom: 20px;
+}
+
+
+/*main*/
+
+
+
+#main .showcase .bio{
+  grid-template-columns: 1fr 0;
+  padding: 1.3rem;
+  height: 100%;
+}
+
+#main .showcase .bio .bio-img{
+  display: none;
+}
+
+#main .showcase .bio .bio-info{
+  width: 90%;
+  margin: auto;
+  
+}
+
+/* features */
+#main .features{
+  display: block;
+}
+
+/*about*/
+
+#about {
+  display: block;
+ 
+}
+
+#about .about-img{
+  padding: 20px 0;
+}
+
+#about .about-img img{
+  width: 20rem;
+  height: 20rem;
+}
+
+/*comment*/
+.comment .container{
+  padding: 1.2rem;
+}
+
+.comment .container h1{
+  width: 90%;
+  
+  
+}
+
+.comment .container .box{
+  grid-template-columns: 5rem 1fr;
+  padding: 1.2rem;
+  min-width: 90%; 
+  column-gap: 0.5rem;
+}
+
+.comment .container .box img{
+  width: 5rem;
+  height: 5rem;
+}
